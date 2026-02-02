@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - John Doe Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">JD</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>My Projects</h1>
+            <p>Explore the projects I've worked on and the solutions I've created</p>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-section">
+        <div class="container">
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-item" data-category="web">
+                    <div class="project-image-large">
+                        <div class="placeholder-project">E-Commerce</div>
+                    </div>
+                    <div class="project-details">
+                        <h3>E-Commerce Platform</h3>
+                        <p class="project-category">Web Application</p>
+                        <p class="project-description">A full-featured e-commerce platform built with React, Node.js, and MongoDB. Features include product catalog, shopping cart, user authentication, payment integration, and admin dashboard.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe API</span>
+                            <span class="tech-tag">Redux</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Live →</a>
+                            <a href="#" class="project-link">GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-item" data-category="web">
+                    <div class="project-image-large">
+                        <div class="placeholder-project">Task Manager</div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Task Management App</h3>
+                        <p class="project-category">Web Application</p>
+                        <p class="project-description">A collaborative task management application with real-time updates. Users can create projects, assign tasks, set deadlines, and track progress. Built with React and Firebase.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Firestore</span>
+                            <span class="tech-tag">Material-UI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Live →</a>
+                            <a href="#" class="project-link">GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-item" data-category="design">
+                    <div class="project-image-large">
+                        <div class="placeholder-project">Analytics Dashboard</div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Analytics Dashboard</h3>
+                        <p class="project-category">Data Visualization</p>
+                        <p class="project-description">Interactive analytics dashboard for data visualization and monitoring. Features real-time charts, statistical analysis, and customizable reports for business intelligence.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">Chart.js</span>
+                            <span class="tech-tag">Python Backend</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Live →</a>
+                            <a href="#" class="project-link">GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-item" data-category="mobile">
+                    <div class="project-image-large">
+                        <div class="placeholder-project">Mobile App</div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Fitness Tracking Mobile App</h3>
+                        <p class="project-category">Mobile Application</p>
+                        <p class="project-description">Native mobile application for fitness tracking and workout management. Features include workout logging, progress tracking, social features, and integration with wearable devices.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Redux</span>
+                            <span class="tech-tag">Wearable API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Live →</a>
+                            <a href="#" class="project-link">GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-item" data-category="web">
+                    <div class="project-image-large">
+                        <div class="placeholder-project">Blog Platform</div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Blog Platform</h3>
+                        <p class="project-category">Web Application</p>
+                        <p class="project-description">A modern blogging platform with rich text editor, user authentication, commenting system, and SEO optimization. Built with Next.js for server-side rendering and optimal performance.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Prisma</span>
+                            <span class="tech-tag">MDX</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Live →</a>
+                            <a href="#" class="project-link">GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-item" data-category="design">
+                    <div class="project-image-large">
+                        <div class="placeholder-project">Design System</div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Design System & Component Library</h3>
+                        <p class="project-category">Design & Development</p>
+                        <p class="project-description">Comprehensive design system with reusable React components, style guide, and documentation. Improves consistency and development speed across projects.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Storybook</span>
+                            <span class="tech-tag">SCSS</span>
+                            <span class="tech-tag">TypeScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Live →</a>
+                            <a href="#" class="project-link">GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Have a Project in Mind?</h2>
+            <p>I'm always open to discussing new projects and creative ideas.</p>
+            <a href="index.html#contact" class="btn btn-primary">Let's Talk</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 John Doe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

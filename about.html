@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Aditya Kumar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <!-- Theme Toggle (accessible) -->
+    <button class="theme-toggle" id="theme-toggle" aria-pressed="false" aria-label="Toggle theme">
+        <span class="toggle-icon" aria-hidden="true">🌙</span>
+    </button>
+
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Header / Navigation -->
+    <header class="site-header">
+        <nav class="navbar" aria-label="Primary navigation">
+            <div class="container">
+                <a href="index.html" class="logo" aria-label="Homepage">
+                    <span class="logo-letter">A</span><span class="logo-letter">K</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active" aria-current="page">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- About Header - Full Page Parallax -->
+    <section id="hero" class="about-header fullpage-header parallax-section" data-parallax="true" role="banner" aria-label="About hero">
+        <div class="parallax-bg"></div>
+        <div class="header-content-wrapper">
+            <div class="header-text-container" data-parallax="true" data-speed="0.4">
+                <h1 class="page-title-large">About Me</h1>
+            </div>
+            <div class="header-subtitle-container" data-parallax="true" data-speed="0.5">
+                <p class="page-subtitle-large">Get to know the person behind the code</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <main id="main-content" class="about-section fullpage-about" role="main">
+        <div class="about-container">
+            <div class="about-hero">
+                <div class="about-image-section">
+                    <div class="about-avatar-wrapper parallax-image" data-parallax="true" data-speed="0.5">
+                        <img src="profile.jpg" alt="Aditya Kumar" class="about-profile-image" loading="lazy" decoding="async" width="450" height="450">
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-content-section">
+                <div class="container">
+                    <div class="about-content">
+                        <div class="about-item">
+                            <div class="about-item-number">01</div>
+                            <h2 class="about-title">Who I Am</h2>
+                            <p class="about-paragraph">
+                                I'm driven by curiosity and a love for solving problems. Whether it's building an autonomous coding agent or optimizing search algorithms, I enjoy figuring out how things work and making them better. For me, every challenge is an opportunity to learn something new and push the boundaries of what's possible.
+                            </p>
+                        </div>
+
+                        <div class="about-item">
+                            <div class="about-item-number">02</div>
+                            <h2 class="about-title">What Excites Me</h2>
+                            <p class="about-paragraph">
+                                Right now, I'm deep into LLMs and HuggingFace, experimenting with Docker and Ollama. What really excites me is search optimization—taking something like BM25, combining it with vector similarity, and creating hybrid approaches that actually work. Making information retrieval faster and more accurate is the kind of problem that keeps me engaged and motivated.
+                            </p>
+                        </div>
+
+                        <div class="about-item">
+                            <div class="about-item-number">03</div>
+                            <h2 class="about-title">My Approach</h2>
+                            <p class="about-paragraph">
+                                I believe in writing clean, maintainable code that solves real problems. I'm passionate about continuous learning and staying updated with the latest technologies. Whether it's a complex algorithm or a beautiful user interface, I approach every project with the same level of dedication and attention to detail.
+                            </p>
+                        </div>
+
+                        <div class="about-cta" role="region" aria-label="Call to action">
+                            <a href="skills.html" class="btn btn-primary magnetic-btn" aria-label="View my skills">
+                                <span>View My Skills</span>
+                            </a>
+                            <a href="index.html#contact" class="btn btn-secondary magnetic-btn" aria-label="Get in touch">
+                                <span>Get In Touch</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Interests Section -->
+    <section class="interests-section alt-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Interests</h2>
+                <p class="section-description">Areas I'm passionate about and constantly exploring</p>
+            </div>
+            <div class="interests-grid">
+                <div class="interest-card">
+                    <div class="interest-icon-wrapper">🤖</div>
+                    <h3>Large Language Models</h3>
+                    <p>Exploring LLMs, HuggingFace, and building intelligent systems</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon-wrapper">🔍</div>
+                    <h3>Search Optimization</h3>
+                    <p>BM25, vector similarity, hybrid search approaches</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon-wrapper">🐳</div>
+                    <h3>DevOps & Containerization</h3>
+                    <p>Docker, Ollama, deployment optimization</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon-wrapper">⚙️</div>
+                    <h3>Algorithm Optimization</h3>
+                    <p>Creating efficient solutions for complex problems</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon-wrapper">🧠</div>
+                    <h3>Problem Solving</h3>
+                    <p>Breaking down complex challenges into elegant solutions</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon-wrapper">📚</div>
+                    <h3>Continuous Learning</h3>
+                    <p>Staying updated with latest tech trends and innovations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back Navigation -->
+    <nav class="back-navigation" aria-label="Back navigation">
+        <div class="container">
+            <a href="index.html" class="btn btn-primary magnetic-btn" aria-label="Back to home">
+                <span>← Back to Home</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Footer -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" aria-label="Homepage">
+                    <strong>Aditya Kumar</strong>
+                </a>
+                <p class="muted">Full‑stack developer · Search & ML enthusiast</p>
+            </div>
+            <div class="footer-contact">
+                <p>Want to work together? <a href="index.html#contact" aria-label="Contact section">Let's talk</a></p>
+                <p><a href="mailto:adi965022@gmail.com">adi965022@gmail.com</a></p>
+            </div>
+            <div class="footer-social">
+                <p class="muted">Find me:</p>
+                <ul class="social-list">
+                    <li><a href="https://github.com/Adityakumarox" target="_blank" rel="noopener noreferrer" aria-label="GitHub (opens in new tab)">GitHub</a></li>
+                    <li><a href="#" rel="noopener" aria-label="LinkedIn">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <p class="copyright">&copy; <span id="year">2025</span> Aditya Kumar. Crafted with passion.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
